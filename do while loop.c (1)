@@ -1,0 +1,16 @@
+//D33-2471-2023
+#include <stdio.h>
+
+int main() {
+    int i = 1, n;
+
+    // Prompt user to input n
+    printf("Enter number of times  (n): ");
+    scanf("%d", &n);
+    do {
+        printf("The number is: %d and the cube of the %d is: %d\n", i, i, i * i * i);
+        i++; // Increment i
+    } while (i <= n); // Condition checked after execution
+
+    return 0;
+}
